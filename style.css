@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:antiquewhite;
+}
+#nav{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0px 70px;
+    font-family: voyage;
+}
+#links{
+    /* position: relative; */
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+#nav h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#icons{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+#icon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+#icon i{
+    position: absolute;
+    left: 50%;
+    color: aliceblue;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+ #nav #line{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate( -50% ,-50%);
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+
+ }
+ #center{
+    position: relative;
+    width: 40%;
+    height: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+ }
+ #center h1{
+    top: -4%;
+    position: absolute;
+    color:rgba(0, 0, 0, 0.815);
+    font-family: voyage;
+    font-size: 110px;
+    font-weight: 500;
+    white-space: nowrap;
+ }
+ #word{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: voyage;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(175, 79, 45);
+ }
+
+ #gumbat{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1615529182904-14819c35db37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+    background-position: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+ }
+ #circle{
+    position: absolute;
+    right: -10%;
+    top: 40%;
+    width: 120px;
+    height: 120px;
+    background-color: #c7b38c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: voyage;
+    justify-content: center;
+    font-weight: 1000;
+    rotate: -7deg;
+ }
+ #text{
+    position: absolute;
+    width: 5%;
+    height: 40%;
+    left: 70px;
+    top: 50%;
+    /* background-color: red; */
+   display:block;   
+   padding-top: 10px;
+ }
+ #text a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: gilroy;
+    font-weight: 500;
+    opacity: 0.9;
+    font-size: 13px;
+    display: inline-block;
+    padding-top: 5px;
+ }  
+ #text a:hover{
+    color: red;
+ }
+ #more{
+    display: inline-block;
+    margin-top: 20px;
+ }
